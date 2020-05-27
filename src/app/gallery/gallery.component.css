@@ -1,0 +1,14 @@
+main {
+  font-size: 1.2em;
+  padding: 1.2em auto;
+  text-align: center;
+}
+.btn {
+ display: block;
+ margin: 1.2em auto;
+ border: 1px solid;
+ padding: 0.45em;
+ background-color: rgba(30, 145, 19, 0.692);
+ font-size: 1.1em;
+ color: rgb(255, 255, 255);
+}
