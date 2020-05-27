@@ -1,0 +1,43 @@
+main {
+  background: url('../../assets/img/gallery/img_15.jpg') no-repeat top;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0px;
+  position: relative;
+}
+section, h1 {
+  margin-top: 0.2rem;
+}
+section {
+  position: absolute;
+  margin-top: 0rem;
+  padding: 1.5rem;
+  bottom: 0.5rem;
+  background-color: rgba(179, 179, 179, 0.356);
+}
+
+@media all and (min-width: 900px){
+ main {
+   background: #fff;
+   height: 100vh;
+   display: flex;
+   flex-flow: row nowrap;
+ }
+ main div {
+   background: url('../../assets/img/gallery/img_15.jpg') no-repeat center center;
+   background-size: cover;
+ }
+ main div.img {
+   flex: 1 1 40%;
+   height: 100vh;
+ }
+ section {
+   flex: 1 1 60%;
+ }
+ section {
+    position: static;
+    margin: 0px;
+ }
+}
