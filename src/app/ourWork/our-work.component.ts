@@ -4,7 +4,9 @@ import { Component } from "@angular/core";
    selector: 'our-work',
    templateUrl: './our-work.component.html',
    styles :[
-         
+          ` main  {
+              padding: 1.4rem;
+          }`
    ]
 })
 
