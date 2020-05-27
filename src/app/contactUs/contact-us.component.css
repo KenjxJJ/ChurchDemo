@@ -1,0 +1,29 @@
+.container{
+  padding:  4.3rem 2.5rem;
+   background-color: rgb(255, 253, 253);
+}
+section {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+section h3 {
+  font-weight: 700;
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+ }
+section p {
+  font-size: 1.1rem;
+}
+section p > span{
+   font-weight: 700;
+}
+p em {
+  font-weight: 700;
+}
+a {
+   color: rgb(7, 51, 248);
+}
+img {
+  width: 40%;
+}
