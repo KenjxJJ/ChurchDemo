@@ -1,0 +1,15 @@
+<div *ngIf="evts.length !== 0" class="container row content" >
+  <section *ngFor="let event of evts | reverse"
+   class="col-sm-12 col-md-6 col-lg-6">
+  <header>
+    <h1>{{ event?.Title | uppercase }}</h1>
+  </header>
+  <main>
+      <p class="date">{{ event?.Date }} </p>
+      <span class="start">
+      <p class="time">{{ event?.Details?.Time }}</p>
+      <p>{{ event?.Location }}</p>
+      </span>
+    </main>
+ </section>
+</div>

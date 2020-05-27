@@ -1,0 +1,38 @@
+h1 {
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+  padding: 0.1em 0px;
+  text-align: justify;
+}
+
+section {
+ padding: 1.2rem;
+ border-bottom: 2px solid #ddd ;
+ font-size: 1.1rem;
+}
+header h1 {
+ letter-spacing: 0.4rem;
+}
+.start {
+  display : flex;
+  align-items: stretch;
+ }
+.start > * {
+  flex: 1 1 50%;
+  padding: 0 3rem;
+}
+
+.time {
+  border-right: 3px solid rgba(138, 136, 136, 0.466);
+}
+span {
+ text-align: right;
+}
+.date {
+  padding: 0 1rem;
+ color: rgba(26, 26, 243, 0.945);
+ font-size: 2.1rem;
+ font-weight: 700;
+}

@@ -14,6 +14,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from 'src/environments/environment';
 import { RouterModule, PreloadAllModules } from '@angular/router';
 import { appRoutes } from 'src/routes';
+import { ReversePipe } from './events/events.pipe';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { appRoutes } from 'src/routes';
     GalleryComponent,
     EventsComponent,
     ContactUsComponent,
-    OurWorkComponent
+    OurWorkComponent,
+    ReversePipe
   ],
   imports: [
     BrowserModule,
