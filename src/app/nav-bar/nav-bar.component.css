@@ -1,0 +1,11 @@
+.collapse{
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+li:active {
+    color: #fff;
+    font-size: larger;
+    border-radius: 7px;
+    transition: all 0.9s;
+}
