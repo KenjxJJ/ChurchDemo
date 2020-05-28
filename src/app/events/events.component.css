@@ -13,26 +13,41 @@ section {
  font-size: 1.1rem;
 }
 header h1 {
- letter-spacing: 0.4rem;
+  letter-spacing: 0.2rem;
+}
+.date {
+padding: 0 1rem;
+color: rgba(26, 26, 243, 0.945);
+font-size: 1.9rem;
+font-weight: 700;
 }
 .start {
   display : flex;
-  align-items: stretch;
+  justify-content: flex-start;
+
  }
 .start > * {
   flex: 1 1 50%;
-  padding: 0 3rem;
+  padding: 0;
 }
 
 .time {
   border-right: 3px solid rgba(138, 136, 136, 0.466);
+  margin-right: 1.2rem;
+  word-spacing: 6rem;
 }
-span {
- text-align: right;
+@media ( min-width: 396px){
+  .time{
+    word-spacing: 0.3rem;
+  }
 }
-.date {
-  padding: 0 1rem;
- color: rgba(26, 26, 243, 0.945);
- font-size: 2.1rem;
- font-weight: 700;
+@media (min-width: 767px){
+  header h1{
+    letter-spacing: normal;
+  }
+  section {
+    padding: 1.2rem;
+    border: 1px solid #ddd ;
+    font-size: 1.1rem;
+   }
 }
