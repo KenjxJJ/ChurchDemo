@@ -21,8 +21,19 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
+              "src/_redirects",
+              "src/apple-icon.png",
+              "src/apple-touch-icon.png",
+              "src/apple-touch-icon.png",
+              "src/android-chrome-512x512.png",
+              "src/android-icon-192x192.png",
               "src/assets",
-              "src/manifest.webmanifest"
+              "src/browserconfig.xml",
+              "src/favicon-16x16.png",
+              "src/favicon-32x32.png",
+              "src/mstile-150x150.png",
+              "src/manifest.webmanifest",
+              "src/safari-pinned-tab.svg"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
