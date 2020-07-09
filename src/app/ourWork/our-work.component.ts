@@ -6,6 +6,10 @@ import { Component } from "@angular/core";
    styles :[
           ` main  {
               padding: 1.4rem;
+          }
+          span {
+             font-weight: 600;
+             font-style: italic;
           }`
    ]
 })

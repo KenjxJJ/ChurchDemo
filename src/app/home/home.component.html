@@ -1,105 +1,109 @@
 <div class="container row" id="top">
-<!-- Display Images -->
-<div class="img col-sm-12 col-md-12 col-lg-12">
- <ngb-carousel *ngIf="images">
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper stellar-bg" data-stellar-background-ratio="0.2">
-        <img [src]="images[0]" alt="first slide" class="img-fluid">
-      </div>
-      <div class="carousel-caption">
-        <h3>Lovely music</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-      </div>
-    </ng-template>
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper stellar-bg" data-stellar-background-ratio="0.2">
-        <img [src]="images[1]" alt="second slide" class="img-fluid">
-      </div>
-      <div class="carousel-caption">
-        <h3>Come and meet us!</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate quo laudantium.</p>
-      </div>
-    </ng-template>
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper stellar-bg" data-stellar-background-ratio="0.2">
-        <img [src]="images[2]" alt=" third slide" class="img-fluid">
-      </div>
-      <div class="carousel-caption">
-        <h3>Worship Moment</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vero facilis nesciunt..</p>
-      </div>
-    </ng-template>
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper stellar-bg" data-stellar-background-ratio="0.2">
-        <img [src]="images[3]" alt="fourth slide" class="img-fluid">
-      </div>
-      <div class="carousel-caption">
-        <h3> The Word</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corrupti impedit suscipit.</p>
-      </div>
-    </ng-template>
-  </ngb-carousel>
-</div>
+    <!-- Display Images -->
+    <div class="img col-sm-12 col-md-12 col-lg-12">
+        <ngb-carousel *ngIf="images">
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper stellar-bg" data-stellar-background-ratio="0.2">
+                    <img [src]="images[0]" alt="first slide" class="img-fluid">
+                </div>
+                <div class="carousel-caption">
+                    <h3>Lovely music</h3>
+                    <p>The Heavenly sound just at your reach.</p>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper stellar-bg" data-stellar-background-ratio="0.2">
+                    <img [src]="images[1]" alt="second slide" class="img-fluid">
+                </div>
+                <div class="carousel-caption">
+                    <h3>Come and meet us!</h3>
+                    <p>A welcoming community to all races of people.</p>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper stellar-bg" data-stellar-background-ratio="0.2">
+                    <img [src]="images[2]" alt=" third slide" class="img-fluid">
+                </div>
+                <div class="carousel-caption">
+                    <h3>Worship Moment</h3>
+                    <p>The Lord God meets each of us in these moments.</p>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper stellar-bg" data-stellar-background-ratio="0.2">
+                    <img [src]="images[3]" alt="fourth slide" class="img-fluid">
+                </div>
+                <div class="carousel-caption">
+                    <h3> The Word</h3>
+                    <p>Meet the great teachers who will encourage to take that spiritual food everyday, even at your home.</p>
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
 
-<!-- Content Section -->
-<div class="content container row">
-  <section class="introduction">
-    <header class="header">
-      <h1>Welcome to our page</h1>
-      </header>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, libero. Omnis, saepe. Obcaecati! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quas at ullam optio voluptates cum consequatur. Eveniet aspernatur rem magnam officiis ipsum sapiente, accusamus temporibus repellendus nihil molestias excepturi. Quaerat?
-​</p>
-</section>
-<main class="main col-sm-12 col-md-6 col-lg-7">
-  <section class="ministry_overview">
-  <header>
-    <h1>The Ministry</h1>
-  </header>
-<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam recusandae optio veritatis eveniet aliquam facere vero, cumque et temporibus? Saepe maxime incidunt unde tempore!
-</p>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi veritatis, explicabo assumenda laborum maiores itaque provident perspiciatis ipsum sequi temporibus! Aspernatur, dolore excepturi.
-</p>
-</section>
-</main>
-<aside class="new_upcoming col-sm-12 col-md-6 col-lg-5">
-  <p>Recent Event.</p>
-  <div class="iframe_container col-sm-12">
-    <iframe width="697" height="392" src="https://www.youtube.com/embed/SC5ROke_WMc?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  </aside>
-</div>
-<!-- Footer section  -->
-<div class="container row">
-<footer class="col-sm-12 col-md-12 col-lg-12">
-  <section class="involve_one">
-      <p>Get involved!</p>
-      <ul>
-        <li>Partners</li>
-        <li>Groups</li>
-        <li>Become a member</li>
-        <li class="last">Wellwisher </li>
-      </ul>
-<a class="mail_request" href="mailto:example1@gmail.com">Send a request.</a>
-  </section>
-  <section class="copyright">
-    <p>Church Demo&copy;2020</p>
-  </section>
-<!-- Navigation up arrow -->
-<div class="up-button">
-  <a class="btn" href="#top">
-    <i class="fa fa-arrow-circle-up fa-2x"></i>
-  </a>
-</div>
-</footer>
-</div>
-<!-- Social Links here-->
-<div class="Social links">
-  <a href="#">
-    <i class="fa fa-facebook-square"  style="font-size:36px"></i>
-  </a>
-  <a href="#">
-     <i class="fa fa-youtube fa-2x"></i>
-    </a>
-  <a href="#">
-     <i class="fa fa-instagram fa-2x"></i></a>
-</div>
+    <!-- Content Section -->
+    <div class="content container row">
+        <section class="introduction">
+            <header class="header">
+                <h1>Welcome to our page</h1>
+            </header>
+            <p> Ps. Jones is glad to share his passion for Christ with you, dear visitor. He is the lead pastor who teaches every thing a Christian ought to know, and walk in the daily life. This is a virtual church, a right place to every believer in Christ
+                Jesus.
+            </p>
+        </section>
+        <main class="main col-sm-12 col-md-6 col-lg-7">
+            <section class="ministry_overview">
+                <header>
+                    <h1>The Ministry</h1>
+                </header>
+                <p> Ps. Jones was called upon by God to preach the gospel of Chirst Jesus to all nations in the world. He is serving along with many ministers on site and others virtually from Africa,Europe,and Asia. He has partnered with many churches, in
+                    order for this vision to come to pass.
+                </p>
+                <p>From online videos and conferences, to live music and community give a hand, every person is Christ's Ambassador. Our work is met to change the lives of people, with focus onto Christ Jesus-Himself.
+                </p>
+            </section>
+        </main>
+        <aside class="new_upcoming col-sm-12 col-md-6 col-lg-5">
+            <p>Recent Event.</p>
+            <div class="iframe_container col-sm-12">
+                <iframe width="697" height="392" src="https://www.youtube.com/embed/SC5ROke_WMc?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </aside>
+    </div>
+    <!-- Footer section  -->
+    <div class="container row">
+        <footer class="col-sm-12 col-md-12 col-lg-12">
+            <section class="involve_one">
+                <p>Get involved!</p>
+                <ul>
+                    <li>Partners</li>
+                    <li>Groups</li>
+                    <li>Become a member</li>
+                    <li class="last">Wellwisher </li>
+                </ul>
+                <a class="mail_request" href="mailto:churchdemo1@gmail.com">Send a request.</a>
+            </section>
+            <section class="copyright">
+                <p>Church Demo &copy;2020
+                    <br> Developed by <span class="developer"> KenjxJJ(GitHub)</span>
+                </p>
+            </section>
+            <!-- Navigation up arrow -->
+            <div class="up-button">
+                <a class="btn" href="#top">
+                    <i class="fa fa-arrow-circle-up fa-2x"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <!-- Social Links here-->
+    <div class="Social links">
+        <a href="#">
+            <i class="fa fa-facebook-square" style="font-size:36px"></i>
+        </a>
+        <a href="#">
+            <i class="fa fa-youtube fa-2x"></i>
+        </a>
+        <a href="#">
+            <i class="fa fa-instagram fa-2x"></i></a>
+    </div>

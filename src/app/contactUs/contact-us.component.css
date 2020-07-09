@@ -1,29 +1,48 @@
-.container{
-  padding:  4.3rem 2.5rem;
-   background-color: rgb(255, 253, 253);
+.container {
+    padding: 4.3rem 2.5rem;
+    background-color: rgb(255, 253, 253);
 }
+
 section {
-  padding: 0.5rem;
-  text-align: left;
+    padding: 0.5rem;
 }
 
 section h3 {
-  font-weight: 700;
-  font-size: 3rem;
-  padding-bottom: 0.5rem;
- }
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+}
+
 section p {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
-section p > span{
-   font-weight: 700;
+
+section p>span {
+    font-weight: 700;
 }
+
 p em {
-  font-weight: 700;
+    font-weight: 700;
 }
+
 a {
-   color: rgb(7, 51, 248);
+    color: rgb(7, 51, 248);
 }
-img {
-  width: 40%;
+
+div.logo img {
+    display: block;
+    margin: 2rem auto;
+    width: 40%;
+}
+
+@media (max-width:600px) {
+    section * {
+        text-align: left;
+    }
+}
+
+@media (min-width :601px) {
+    img {
+        margin: 2rem auto;
+    }
 }
