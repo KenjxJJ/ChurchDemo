@@ -1,27 +1,24 @@
 main {
-    background: url('../../assets/img/gallery/img_15.jpg') no-repeat top;
+    background: url('../../assets/img/gallery/img_15.jpg') no-repeat top center;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
     margin: 0;
     padding: 0px;
-    position: relative;
+    color: rgb(22, 22, 22);
 }
 
 #scripture,
 span {
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 2px;
 }
 
-section,
 h1 {
     margin-top: 0.2rem;
 }
 
 section {
-    position: absolute;
-    margin-top: 0rem;
+    margin-top: 12rem;
     padding: 1.5rem;
     bottom: 0.5rem;
     background-color: rgba(179, 179, 179, 0.356);
@@ -30,20 +27,21 @@ section {
 @media all and (min-width: 900px) {
     main {
         background: #fff;
-        height: 100vh;
+        /* height: 100vh; */
         display: flex;
         flex-flow: row nowrap;
     }
-    main div {
+    main div.img {
         background: url('../../assets/img/gallery/img_15.jpg') no-repeat center center;
         background-size: cover;
     }
     main div.img {
         flex: 1 1 40%;
-        height: 100vh;
+        /* height: 100vh; */
     }
     section {
         flex: 1 1 60%;
+        /* height: 100vh; */
     }
     section {
         position: static;
